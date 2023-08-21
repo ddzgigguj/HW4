@@ -20,5 +20,5 @@ People.method2()
 print("Name:", People.name)
 print("Age:", People.age)
 
-People.age = 25
+People.__age = 25
 print("Updated Age:", People.age)
